@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Crowd Funding</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <main id="main" class="main" style="margin: 0;">
+
+    <div class="pagetitle">
+      <h1>Campaign Profile</h1>
+    </div><!-- End Page Title -->
+
+    <section class="section profile">
+      <div class="row">
+        <div class="col-xl-4">
+
+          <div class="card">
+            <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
+
+              <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+              <h2>Campaign Name</h2>
+              <h3>Campaign Category</h3>
+            </div>
+          </div>
+
+          <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Campaign Media</h5>
+  
+                <!-- Default Tabs -->
+                <ul class="nav nav-tabs d-flex" id="myTabjustified" role="tablist">
+                  <li class="nav-item flex-fill" role="presentation">
+                    <button class="nav-link w-100 active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-justified" type="button" role="tab" aria-controls="home" aria-selected="true">Photos</button>
+                  </li>
+                  <li class="nav-item flex-fill" role="presentation">
+                    <button class="nav-link w-100" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-justified" type="button" role="tab" aria-controls="profile" aria-selected="false">Videos</button>
+                  </li>
+                  
+                </ul>
+                <div class="tab-content pt-2" id="myTabjustifiedContent">
+                  <div class="tab-pane fade show active" id="home-justified" role="tabpanel" aria-labelledby="home-tab">
+                      <div class="row">
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <img src="assets/img/slides-1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <img src="assets/img/slides-1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <img src="assets/img/slides-1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <img src="assets/img/slides-1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              
+                          </div>
+
+                          
+                      </div>
+                      
+                  </div>
+                  <div class="tab-pane fade" id="profile-justified" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="row">
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <video src="assets/video/vid3.mp4" class="d-block w-100" controls></video>
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <video src="assets/video/vid3.mp4" class="d-block w-100" controls></video>
+                              </div>
+                              
+                          </div>
+
+                          <div class="col-sm-4" style="margin: 2% auto;">
+                              <div class="carousel-item active">
+                                  <video src="assets/video/vid3.mp4" class="d-block w-100" controls></video>
+                              </div>
+                              
+                          </div>
+                          
+                      </div>
+                  </div>
+                  
+                </div><!-- End Default Tabs -->
+  
+              </div>
+          </div>
+
+        </div>
+
+        <div class="col-xl-8">
+
+          <div class="card">
+            <div class="card-body pt-3">
+              <!-- Bordered Tabs -->
+              <ul class="nav nav-tabs nav-tabs-bordered">
+
+                <li class="nav-item">
+                  <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview">Overview</button>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-edit">Edit Campaign</button>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-settings">Team Members</button>
+                </li>
+
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Rewards and Media</button>
+                </li>
+
+              </ul>
+              <div class="tab-content pt-2">
+
+                <div class="tab-pane fade show active profile-overview" id="profile-overview">
+                  <h5 class="card-title">About</h5>
+                  <p class="small fst-italic">Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</p>
+
+                  <h5 class="card-title">Campaign Details</h5>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label ">Campaign Name</div>
+                    <div class="col-lg-9 col-md-8">Name Here</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Category</div>
+                    <div class="col-lg-9 col-md-8">Film Project</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Region</div>
+                    <div class="col-lg-9 col-md-8">Africa</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Country</div>
+                    <div class="col-lg-9 col-md-8">Uganda</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">City</div>
+                    <div class="col-lg-9 col-md-8">Kabale</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Target Amount</div>
+                    <div class="col-lg-9 col-md-8">700 USD</div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-3 col-md-4 label">Campaign Duration</div>
+                    <div class="col-lg-9 col-md-8">10 days</div>
+                  </div>
+
+                </div>
+
+                <div class="tab-pane fade profile-edit pt-3" id="profile-edit">
+
+                  <!-- Profile Edit Form -->
+                  <form>
+                    <div class="row mb-3">
+                      <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Feature Image</label>
+                      <div class="col-md-8 col-lg-9">
+                        <img src="assets/img/profile-img.jpg" alt="Profile">
+                        <div class="pt-2">
+                          <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+                          <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="profileImage" class="col-md-4 col-lg-3 col-form-label">Pitch Image</label>
+                      <div class="col-md-8 col-lg-9">
+                        <img src="assets/img/profile-img.jpg" alt="Profile">
+                        <div class="pt-2">
+                          <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+                          <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="fullName" class="col-md-4 col-lg-3 col-form-label">Campaign Name</label>
+                      <div class="col-md-8 col-lg-9">
+                        <input name="fullName" type="text" class="form-control" id="fullName" value="Campaign Name">
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="company" class="col-md-4 col-lg-3 col-form-label">Category</label>
+                      <div class="col-md-8 col-lg-9">
+                        <select class="form-select" id="floatingSelect" aria-label="State">
+                          <option value="Film Project">Film Project</option>
+                          <option value="Workshop">Workshop</option>
+                          <option value="Event">Event</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="about" class="col-md-4 col-lg-3 col-form-label">Tagline</label>
+                      <div class="col-md-8 col-lg-9">
+                        <textarea name="about" class="form-control" id="about" style="height: 100px">Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</textarea>
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="company" class="col-md-4 col-lg-3 col-form-label">Location</label>
+                      <div class="col-md-3 col-lg-3">
+                        <select class="form-select" id="floatingSelect" aria-label="State">
+                          <option value="Africa">Africa</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3 col-lg-3">
+                        <select class="form-select" id="floatingSelect" aria-label="State">
+                          <option value="Uganda">Uganda</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3 col-lg-3">
+                        <input name="company" type="text" class="form-control" id="company" value="Kabale">
+                      </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="Job" class="col-md-4 col-lg-3 col-form-label">Lead Statement</label>
+                        <div class="col-md-8 col-lg-9">
+                          <textarea name="about" class="form-control" id="about" style="height: 100px">Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</textarea>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                      <label for="Country" class="col-md-4 col-lg-3 col-form-label">Full Description</label>
+                      <div class="col-md-8 col-lg-9">
+                        <textarea class="tinymce-editor" placeholder=" Campaign Full Description"> </textarea>
+                      </div>
+                    </div>
+
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                  </form><!-- End Profile Edit Form -->
+
+                </div>
+
+                <div class="tab-pane fade pt-3" id="profile-settings">
+
+                  <!-- Settings Form -->
+                  <form>
+
+                    <div class="list-group">
+                      <div href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Member Name</h5>
+                          <small>
+                              <a href="#" class="btn btn-primary btn-sm" title="Edit Member"><i class="bi bi-pencil-square"></i></a>
+                              <a href="#" class="btn btn-danger btn-sm" title="Remove Team Member"><i class="bi bi-trash"></i></a>
+                          </small>
+                        </div>
+                        <small>Member Role.</small>
+                        <small>Member Email.</small>
+                      </div>
+
+                      <div href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Member Name</h5>
+                          <small>
+                              <a href="#" class="btn btn-primary btn-sm" title="Edit Member"><i class="bi bi-pencil-square"></i></a>
+                              <a href="#" class="btn btn-danger btn-sm" title="Remove Team Member"><i class="bi bi-trash"></i></a>
+                          </small>
+                        </div>
+                        <small>Member Role.</small>
+                        <small>Member Email.</small>
+                      </div>
+
+                      <div href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <div class="d-flex w-100 justify-content-between">
+                          <h5 class="mb-1">Member Name</h5>
+                          <small>
+                              <a href="#" class="btn btn-primary btn-sm" title="Edit Member"><i class="bi bi-pencil-square"></i></a>
+                              <a href="#" class="btn btn-danger btn-sm" title="Remove Team Member"><i class="bi bi-trash"></i></a>
+                          </small>
+                        </div>
+                        <small>Member Role.</small>
+                        <small>Member Email.</small>
+                      </div>
+                      
+                  </div>
+
+                    <div class="text-center" style="margin-top: 2%; display: none;">
+                      <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                  </form><!-- End settings Form -->
+
+                </div>
+
+                <div class="tab-pane fade pt-3" id="profile-change-password">
+                  <!-- Change Password Form -->
+                  <form>
+
+                    <div class="row">
+                      <div class="col-md-6">
+                          <div class="card mb-3">
+                              <div class="row g-0">
+                              <div class="col-md-4">
+                                  <img src="assets/img/card.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                  <div class="card-body">
+                                  <h6 style="color: #3884af;">Reward Name</h6>
+                                  <small>This is a wider card with supporting text below as a natural lead-in to additional content.</small>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="card-footer">
+                                <a href="#" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Edit</a>
+                                <a href="#" class="btn btn-danger"><i class="bi bi-trash"></i> Delete</a>
+                              </div>
+                              
+                          </div>
+
+                      </div>
+                      <div class="col-md-6">
+                          <div class="card mb-3">
+                              <div class="row g-0">
+                              <div class="col-md-4">
+                                  <img src="assets/img/card.jpg" class="img-fluid rounded-start" alt="...">
+                              </div>
+                              <div class="col-md-8">
+                                  <div class="card-body">
+                                  <h6 style="color: #3884af;">Reward Name</h6>
+                                  <small>This is a wider card with supporting text below as a natural lead-in to additional content.</small>
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="card-footer">
+                                  <a href="#" class="btn btn-primary"><i class="bi bi-pencil-square"></i> Edit</a>
+                                  <a href="#" class="btn btn-danger"><i class="bi bi-trash"></i> Delete</a>
+                              </div>
+                              
+                          </div>
+
+                      </div>
+                  </div>
+                  </form><!-- End Change Password Form -->
+
+                </div>
+
+              </div><!-- End Bordered Tabs -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
